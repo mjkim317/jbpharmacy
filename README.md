@@ -1,4 +1,3 @@
-![image](https://github.com/mjkim317/jbpharmacy/assets/65210114/cac4e38b-ca22-4e2c-9bce-17f4ee4108da)# jbpharmacy
 
 # 2023 SW 캡스톤디자인
 ##  공공야간약국 위치 선정

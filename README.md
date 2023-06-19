@@ -1,26 +1,20 @@
-# jbpharmacy
+![image](https://github.com/mjkim317/jbpharmacy/assets/65210114/cac4e38b-ca22-4e2c-9bce-17f4ee4108da)# jbpharmacy
 
-# 공공 빅데이터 인턴십 실무형 프로젝트: 데이턴십 해커톤
-## 개요: 배달노동자를 위한 서울시 ‘이동노동자 간이 쉼터’ 최적입지 선정
-- 팀명: 65조
-- 팀원: 김영욱💇‍♂️, [민경욱](https://github.com/rrkcl7733)🙇‍♀️, 박해민🤴, 안동현👨‍💻, 하성민👩‍💼, [황다빈](https://github.com/chIorophyII)💁‍♀️, [황성아](https://github.com/SungaHwang)🤷‍♀️
-- 기간: 2021.08.02 ~ 2021.08.19 17:00
-- 분석도구: R, Python, QGIS
+# 2023 SW 캡스톤디자인
+##  공공야간약국 위치 선정
+- 팀명: 메디컬토끼
+- 팀원: 김나연, 김민지
+- 분석도구: Python, QGIS
 
-## 1. 진행한 분석
-**[notebook 폴더](https://github.com/DonghyunAnn/Gbig-Hackertone/tree/main/notebook)에 개별적으로 정리했습니다.**
-- [황성아](https://github.com/DonghyunAnn/Gbig-Hackathon/tree/master/notebook/%ED%99%A9%EC%84%B1%EC%95%84): [주성분분석(Principle Component Analysis)](https://github.com/DonghyunAnn/Gbig-Hackathon/blob/master/notebook/%ED%99%A9%EC%84%B1%EC%95%84/%EC%A3%BC%EC%84%B1%EB%B6%84%EB%B6%84%EC%84%9D_data.R), [상관분석(Correlation Analysis)](https://github.com/DonghyunAnn/Gbig-Hackathon/blob/master/notebook/%ED%99%A9%EC%84%B1%EC%95%84/%EC%83%81%EA%B4%80%EB%B6%84%EC%84%9D_final_data.R)
-- [황다빈](https://github.com/DonghyunAnn/Gbig-Hackathon/tree/master/notebook/%ED%99%A9%EB%8B%A4%EB%B9%88): [계층적군집분석(Hierarchical Clustering)](https://github.com/DonghyunAnn/Gbig-Hackathon/blob/master/notebook/%ED%99%A9%EB%8B%A4%EB%B9%88/%EA%B3%84%EC%B8%B5%EC%A0%81%EA%B5%B0%EC%A7%91%EB%B6%84%EC%84%9D_pcadata.ipynb), [K-Means Clustering](https://github.com/DonghyunAnn/Gbig-Hackathon/blob/master/notebook/%ED%99%A9%EB%8B%A4%EB%B9%88/K-Means_pcadata.ipynb)
-- [민경욱](https://github.com/DonghyunAnn/Gbig-Hackathon/tree/master/notebook/%EB%AF%BC%EA%B2%BD%EC%9A%B1): [K-Medoids Clustering](https://github.com/DonghyunAnn/Gbig-Hackathon/blob/master/notebook/%EB%AF%BC%EA%B2%BD%EC%9A%B1/K-Medoids.R)
-- [하성민](https://github.com/DonghyunAnn/Gbig-Hackathon/tree/master/notebook/%ED%95%98%EC%84%B1%EB%AF%BC): [Gaussian Mixture Model(GMM)](https://github.com/DonghyunAnn/Gbig-Hackathon/blob/master/notebook/%ED%95%98%EC%84%B1%EB%AF%BC/GMM_3cluster.ipynb)
-- [안동현](https://github.com/DonghyunAnn/Gbig-Hackertone/tree/main/notebook/%EC%95%88%EB%8F%99%ED%98%84): [LSCP](https://github.com/DonghyunAnn/Gbig-Hackertone/blob/main/notebook/%EC%95%88%EB%8F%99%ED%98%84/LSCP_MCLP_EMDdata.ipynb), [MCLP](https://github.com/DonghyunAnn/Gbig-Hackertone/blob/main/notebook/%EC%95%88%EB%8F%99%ED%98%84/MCLP_Roaddata.ipynb), [시계열분석](https://github.com/DonghyunAnn/Gbig-Hackertone/blob/main/notebook/%EC%95%88%EB%8F%99%ED%98%84/%EC%8B%9C%EA%B3%84%EC%97%B4%EB%B6%84%EC%84%9D_%EC%A0%84%EA%B5%AD.ipynb)
-
-
-## 2. [프로젝트 요약](https://github.com/DonghyunAnn/Gbig-Hackertone/blob/main/Output/%EC%84%9C%EC%9A%B82_65%EC%A1%B0_%20%EC%B5%9C%EC%A2%85PPT.pdf)
-
-**[분석 보고서](https://github.com/DonghyunAnn/Gbig-Hackertone/blob/main/Output/%EC%84%9C%EC%9A%B82_65%EC%A1%B0_%EB%B6%84%EC%84%9D%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)에 더 상세한 내용이 첨부돼 있습니다.**
-
-**[data 폴더](https://github.com/DonghyunAnn/Gbig-Hackertone/tree/main/data)에 분석에 사용된 데이터가 정리돼 있습니다.** 
+###공공야간약국이란??
+### 심야시간 및 공휴일 등 취약시간대에 전문약사의 복약지도를 통해 의약품 오남용 및 부작용을 최소화하고 의약품 구입에 대한 불편을 해소하기 위해 365일 매일 밤 10시부터 다음날 새벽 1시까지 운영하는 약국
+![image](https://github.com/mjkim317/jbpharmacy/assets/65210114/bfb86c6f-24ef-4b44-912b-8c989bbf5090)
+```
+- 약사의 업무 피로도를 최소화하기 위해 저녁시간에 일시적으로 폐문했다 저녁 10시에 개문하여 운영
+- 기존 지자체와 지역 약사회 단위로 운영하던 사업이 22년 7월부터 처음으로 전국단위 시범사업 시작
+- 공공야간약국 선정 과정: 심야약국 운영을 희망하는 약국 조사 -> 365일 운영 약국 지정 -> 지정약국이 없으면 요일제 신청 약국 지정
+- 효율적인 야간 약국 위치 선정을 위해 접근성, 주변 환경, 인구 특성을 고려하고자 함.
+```
 
 ### (1) 분석개요
 ```
